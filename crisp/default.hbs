@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">	
+	<head>
+	    {{! Document Settings }}
+	    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	    {{! Page Meta }}
+	    <title>{{meta_title}}</title>
+	    <meta name="description" content="{{meta_description}}" />
+	    {{! Styles }}
+	    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="{{asset '/styles/crisp.css'}}">
+		<link rel="shortcut icon" href="{{@blog.logo}}"/>
+	    {{! Responsive Meta Tags }}
+	    <meta name="HandheldFriendly" content="True" />
+	    <meta name="MobileOptimized" content="320" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    {{ghost_head}}
+	</head>
+	<body class="{{body_class}}">
+		<header id="header">
+			{{#if @blog.logo}}<a id="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+			<h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+			<p>{{@blog.description}}</p>
+			<h6><a href="{{@blog.url}}/about">About</a></h6>
+		</header>
+		<main id="content">
+			{{{body}}}
+		</main>
+		<footer id="footer">
+			<section id="footer-message">&copy; {{date format='YYYY'}} {{@blog.title}}. All rights reserved. Powered by <a href="http://ghost.org" target="_blank">Ghost</a>. <a href="http://github.com/kathyqian/crisp" target="_blank">Crisp</a> theme by <a href="http://kathyqian.com" target="_blank">Kathy Qian</a>.</section>
+		</footer>
+	{{ghost_foot}}
+	</body>
+</html>
