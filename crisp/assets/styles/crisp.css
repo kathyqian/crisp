@@ -11,20 +11,25 @@ html, body {
 	font-weight: 300;
 	color:#444;
 }
+body {
+	padding-left:17.5em;
+}                  
 /* Blocks */
 header {
 	border-right: 1px #eee solid;
 	padding: 2em;
 	position:fixed;
+	top: 0;
+	left: 0;
 	height:100%;
 	width:13.5em;
 }
-main {
-	margin-left: 17.5em;
+#content {
+	display: inline-block;
 	padding: 2em 2.5em 1em 2.5em;
 }
 footer {
-	padding: 1em 3.125em 2.5em 25em;
+	padding: 1em 3.125em 2.5em 3.125em;
 	font-size:0.8em;
 	line-height: 1.5em;
 	color: #888;
@@ -175,6 +180,9 @@ footer a:hover {
 }
 /* Small Screens */
 @media only screen and (max-width: 800px) { 
+	body {
+		padding-left:0;
+	}
 	header {
 		border-right: none;
 		border-bottom: 1px #eee solid;
@@ -184,7 +192,7 @@ footer a:hover {
 		text-align:center;
 		padding-bottom:1em;
 	}
-	main {
+	#content {
 		margin-left: 0;
 		padding: 2em 2em 1em 2em;
 	}
@@ -197,7 +205,7 @@ footer a:hover {
 	header {
 		padding: 1.2em 1.2em 0.6em 1.2em;
 	}
-	main {
+	#content {
 		padding: 1.2em 1.2em 0.6em 1.2em;
 	}
 	footer {
