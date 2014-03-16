@@ -129,6 +129,7 @@ header #logo img {
 	border-radius:4.5em;
 	-moz-border-radius: 4.5em;
 	-webkit-border-radius: 4.5em;
+	border: none;
 }
 header h6 {
 	margin-top:0.5em;
