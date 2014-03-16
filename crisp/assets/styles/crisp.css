@@ -184,6 +184,7 @@ footer a:hover {
 		padding-bottom:1em;
 	}
 	main {
+		margin-left: 0;
 		padding: 2em 2em 1em 2em;
 	}
 	footer {
