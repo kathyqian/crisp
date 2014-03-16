@@ -4,15 +4,17 @@
 } 
 /* Basic Typography */
 html, body {
-	height: 100%;
 	font-size: 1em;
 	line-height: 1.65em;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 	color:#444;
 }
+html {
+	height: 100%;
+}
 body {
-	padding-left:17.5em;
+	padding: 2em 2.5em 1em 20em;
 }                  
 /* Blocks */
 header {
@@ -26,10 +28,10 @@ header {
 }
 #content {
 	display: inline-block;
-	padding: 2em 2.5em 1em 2.5em;
+	width: 100%;
 }
 footer {
-	padding: 1em 3.125em 2.5em 3.125em;
+	padding: 1em 0em 2.5em 0em;
 	font-size:0.8em;
 	line-height: 1.5em;
 	color: #888;
@@ -181,7 +183,7 @@ footer a:hover {
 /* Small Screens */
 @media only screen and (max-width: 800px) { 
 	body {
-		padding-left:0;
+		padding:0;
 	}
 	header {
 		border-right: none;
@@ -195,6 +197,7 @@ footer a:hover {
 	#content {
 		margin-left: 0;
 		padding: 2em 2em 1em 2em;
+		width: auto;
 	}
 	footer {
 		padding: 0 2.5em 2em 2.5em;
