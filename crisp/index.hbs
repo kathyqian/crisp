@@ -1,7 +1,7 @@
 {{!< default}}
 {{#foreach posts}}
 <section id="{{id}}" class="{{post_class}}">
-	<h3 class="post-title"><a href="{{url}}">{{title}}</a></h3>
+	<h3 class="post-title"><a href="{{url}}">{{title}}</a> {{date published_at format='MMMM Do, YYYY'}}</h3>
 </section>
 {{/foreach}}
 {{pagination}}
