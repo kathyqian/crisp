@@ -1,5 +1,5 @@
 <nav class="pagination" role="pagination">
-    {{#if prev}}<a class="newer-posts" href="{{pageUrl prev}}">&larr; Newer</a> | {{/if}}
+    {{#if prev}}<a class="newer-posts" href="{{pageUrl prev}}">&larr; Newer</a> <span class="separator">|</span> {{/if}}
     <span class="page-number">Page {{page}} of {{pages}}</span>
-    {{#if next}} | <a class="older-posts" href="{{pageUrl next}}">Older &rarr;</a>{{/if}}
+    {{#if next}} <span class="separator">|</span> <a class="older-posts" href="{{pageUrl next}}">Older &rarr;</a>{{/if}}
 </nav>

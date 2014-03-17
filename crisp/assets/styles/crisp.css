@@ -162,6 +162,9 @@ h3.post-title {
 	font-size: 1.2em;
 	color: #444;
 }
+.separator {
+	color: #ccc;
+}
 #comments {
 	margin-top: 0.15em;
 	padding-bottom: 0.2em;
