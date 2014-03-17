@@ -27,7 +27,7 @@ header {
 	width:13.5em;
 }
 #content {
-	display: inline-block;
+	display: block;
 	width: 100%;
 }
 footer {
