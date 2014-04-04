@@ -91,6 +91,9 @@ a:hover {
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-weight:400 !important;
 }
+strong {
+	font-weight: bold;
+}
 blockquote {
 	border-left: 0.4em solid #eee;
 	padding-left: 1.2em;
