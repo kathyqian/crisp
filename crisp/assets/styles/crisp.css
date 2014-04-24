@@ -226,4 +226,7 @@ footer a:hover {
 	footer {
 		padding: 0 1.5em 1.2em 1.5em;
 	}
+	ul, ol {
+		margin-left: 2em; 
+	}
 }
