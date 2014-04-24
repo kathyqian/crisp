@@ -28,7 +28,7 @@ Below is a summary of updates since the initial release. If you need more detail
 * Added support for tags and tag pages
 * Minor tweaks to be fully compliant with Ghost 0.4.2
 * Squished bug with Disqus integration
-* ***Upgrade Note:** If you are upgrading from a previous version and find that your comments have disappeared, this is likely due to the change in commit [bac117e9a4](https://github.com/kathyqian/crisp-ghost-theme/commit/bac117e9a41d470195121b0eb7cb8d27e3feabe7) which changes the Disqus identifier from the post URL to the post ID. You can either fix this issue by using the [Migration Tools](http://help.disqus.com/customer/portal/articles/286778-migration-tools) provided by Disqus or simply leave the post identifier as the URL.*
+* *Upgrade Note: If you are upgrading from a previous version and find that your comments have disappeared, this is likely due to the change in commit [bac117e9a4](https://github.com/kathyqian/crisp-ghost-theme/commit/bac117e9a41d470195121b0eb7cb8d27e3feabe7) which changes the Disqus identifier from the post URL to the post ID. You can either fix this issue by using the [Migration Tools](http://help.disqus.com/customer/portal/articles/286778-migration-tools) provided by Disqus or simply leave the post identifier as the URL.*
 
 **Version 0.2.1 &mdash; April 4, 2014**
 
