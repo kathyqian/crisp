@@ -165,8 +165,22 @@ h3.post-title {
 	font-size: 1.2em;
 	color: #444;
 }
-.separator {
+.separator, .taglist {
 	color: #ccc;
+}
+.taglist a {
+	background-color:#aaa;
+	color:#fff;
+	padding:0.3em 0.6em 0.3em 0.6em;
+	vertical-align:10%;  
+	font-size:0.5em;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300 !important;
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	border-radius:0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
 }
 #comments {
 	margin-top: 0.15em;
