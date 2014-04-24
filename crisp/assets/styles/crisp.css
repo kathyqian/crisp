@@ -92,7 +92,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-weight:400 !important;
 }
 strong {
-	font-weight: bold;
+	font-weight: 700;
 }
 blockquote {
 	border-left: 0.4em solid #eee;
