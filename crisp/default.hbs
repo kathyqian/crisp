@@ -12,6 +12,7 @@
 			{{! Styles }}
 	    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
 			<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+			<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 			<link rel="stylesheet" type="text/css" href="{{asset '/styles/crisp.css'}}">
 			{{! Responsive Meta Tags }}
 	    <meta name="HandheldFriendly" content="True" />
@@ -29,6 +30,7 @@
 			{{#if @blog.logo}}<a id="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
 			<h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
 			<p>{{@blog.description}}</p>
+			{{> follow}}
 			{{> navigation}}
 		</header>
 		<main id="content">

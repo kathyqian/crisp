@@ -147,6 +147,19 @@ header #logo img {
 	-webkit-border-radius: 4.5em;
 	border: none;
 }
+#follow-icons {
+	font-size: 0.7em;
+	margin-top: -0.7em;
+	margin-bottom: 1.5em;
+}
+#follow-icons a {
+	color: #ccc;
+}	
+#follow-icons span {
+	vertical-align:top;
+	margin-left:-0.1em;
+	margin-right:-0.2em;
+}
 header h6 {
 	margin-top:0.5em;
 }
