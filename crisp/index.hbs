@@ -1,7 +1,3 @@
 {{!< default}}
-{{#foreach posts}}
-<section id="{{id}}" class="{{post_class}}">
-	<h3 class="post-title"><a href="{{url}}">{{title}}</a> <span class="separator">&middot;</span> {{date published_at format='MMMM Do, YYYY'}}<span class="taglist">{{tags separator=" " prefix=" &middot; "}}</span></h3>
-</section>
-{{/foreach}}
+{{> postlist}}
 {{pagination}}

@@ -165,7 +165,10 @@ h3.post-title {
 	font-size: 1.2em;
 	color: #444;
 }
-.separator, .taglist {
+.post-title .feature-star {
+	font-size: 0.9em;
+}
+.separator, .taglist, .feature-star {
 	color: #ccc;
 }
 .taglist a {

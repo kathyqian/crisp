@@ -1,7 +1,7 @@
 {{!< default}}
 {{#post}}
 <article id="{{id}}" class="{{post_class}}">
-	<div class="post-stamp">{{date published_at format='MMMM Do, YYYY'}}<span class="taglist">{{tags separator=" " prefix=" &middot; "}}</span></div>
+	<div class="post-stamp">{{date published_at format='MMMM D, YYYY'}}<span class="taglist">{{tags separator=" " prefix=" &middot; "}}</span>{{#if featured}}<span class="separator"> &middot; </span><i class="fa fa-star-o feature-star"></i>{{/if}}</div>
 	<h1 class="post-title">{{title}}</h1>
 	{{{content}}}
 </article>
