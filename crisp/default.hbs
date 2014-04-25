@@ -29,7 +29,7 @@
 			{{#if @blog.logo}}<a id="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
 			<h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
 			<p>{{@blog.description}}</p>
-			<h6><a href="{{@blog.url}}/about">About</a></h6>
+			{{> navigation}}
 		</header>
 		<main id="content">
 			{{{body}}}
