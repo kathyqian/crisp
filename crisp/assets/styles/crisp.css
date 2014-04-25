@@ -169,15 +169,15 @@ h3.post-title {
 	color: #ccc;
 }
 .taglist a {
-	background-color:#bbb;
+	background-color:#ccc;
 	color:#fff;
 	padding:0.3em 0.6em 0.3em 0.6em;
 	vertical-align:10%;  
 	font-size:0.5em;
 	font-family: "Open Sans", sans-serif;
-	font-weight: 300 !important;
+	font-weight: 700 !important;
 	text-transform:uppercase;
-	letter-spacing:0.1em;
+	letter-spacing:0.05em;
 	border-radius:0.25em;
 	-moz-border-radius: 0.25em;
 	-webkit-border-radius: 0.25em;
