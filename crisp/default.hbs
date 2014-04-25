@@ -7,20 +7,21 @@
 	    {{! Page Meta }}
 	    <title>{{meta_title}}</title>
 	    <meta name="description" content="{{meta_description}}" />
-	    {{! Styles }}
+	    <link rel="shortcut icon" href="{{@blog.logo}}"/>
+			<meta property="og:description" content="{{excerpt}}" />
+			{{! Styles }}
 	    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="{{asset '/styles/crisp.css'}}">
-		<link rel="shortcut icon" href="{{@blog.logo}}"/>
-	    {{! Responsive Meta Tags }}
+			<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+			<link rel="stylesheet" type="text/css" href="{{asset '/styles/crisp.css'}}">
+			{{! Responsive Meta Tags }}
 	    <meta name="HandheldFriendly" content="True" />
 	    <meta name="MobileOptimized" content="320" />
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]--> 
+			<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!--[if lt IE 9]>
+				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+				<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+			<![endif]-->  
 	    {{ghost_head}}
 	</head>
 	<body class="{{body_class}}">
