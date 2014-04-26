@@ -72,6 +72,6 @@ This theme is licensed under the [Creative Commons Attribution-NonCommercial-Sha
 
 ### More Screenshots
 
-{<1>}![Post](https://raw.github.com/kathyqian/crisp-ghost-theme/master/post.png)
-{<2>}![Post w/Image](https://raw.github.com/kathyqian/crisp-ghost-theme/master/post-2.png)
-{<3>}![Post w/Long Text](https://raw.github.com/kathyqian/crisp-ghost-theme/master/post-3.png)
+![Post](https://raw.github.com/kathyqian/crisp-ghost-theme/master/post.png)
+![Post w/Image](https://raw.github.com/kathyqian/crisp-ghost-theme/master/post-2.png)
+![Post w/Long Text](https://raw.github.com/kathyqian/crisp-ghost-theme/master/post-3.png)
