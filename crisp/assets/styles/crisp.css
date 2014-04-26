@@ -198,6 +198,11 @@ h3.post-title {
 	-moz-border-radius: 0.25em;
 	-webkit-border-radius: 0.25em;
 }
+#social-bar {
+	margin-top:1.5em;
+	background-color:#eee;
+	padding:0.5em;
+}
 #comments {
 	margin-top: 0.15em;
 	padding-bottom: 0.2em;
