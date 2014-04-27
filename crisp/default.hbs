@@ -13,7 +13,6 @@
 			<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 			<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 			<link rel="stylesheet" type="text/css" href="{{asset '/styles/crisp.css'}}">
-			<link rel="stylesheet" type="text/css" href="{{asset '/styles/rrssb.css'}}">
 			{{! Responsive Meta Tags }}
 	    <meta name="HandheldFriendly" content="True" />
 	    <meta name="MobileOptimized" content="320" />
@@ -23,6 +22,7 @@
 				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 				<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 			<![endif]-->  
+			{{{block "head"}}}  
 	    {{ghost_head}}
 	</head>
 	<body class="{{body_class}}">
