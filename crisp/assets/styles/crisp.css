@@ -157,8 +157,12 @@ header #logo img {
 }	
 #follow-icons span {
 	vertical-align:top;
-	margin-left:-0.1em;
-	margin-right:-0.2em;
+	margin-left:-0.15em;
+	margin-right:-0.15em;
+}
+#follow-icons span .fa-stack-1x {
+	font-size:1.05em;
+	line-height:1.9em;
 }
 header h6 {
 	margin-top:0.5em;
