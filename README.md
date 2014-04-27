@@ -32,6 +32,12 @@ Below is a summary of updates since the initial release. If you need more detail
 
 This theme has been updated for Ghost 0.4.2 and is compatible with all modern versions of Chrome, Firefox, Safari, and IE9+.
 
+**Version 0.4.1 &mdash; April 26, 2014**
+
+* Adds open graph compatibility
+* Improvements to social sharing buttons
+* Minor styling tweaks to follow buttons
+
 **Version 0.4.0 &mdash; April 25, 2014**
 
 * Added follow buttons
