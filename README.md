@@ -22,7 +22,7 @@ A minimalist, responsive, and open-source theme for [Ghost](http://ghost.org) by
 
 ### Editing Follow Buttons
 
-Crisp uses Font Awesome for icons. See the Font Awesome documentation for the [full list of icons](http://fontawesome.github.io/Font-Awesome/icons/) and [usage tips](http://fortawesome.github.io/Font-Awesome/examples/). 
+Crisp uses Font Awesome for icons. See the Font Awesome documentation for the [full list of icons](http://fortawesome.github.io/Font-Awesome/icons/) and [usage tips](http://fortawesome.github.io/Font-Awesome/examples/). 
 
 I have placed some common buttons in **follow.hbs**, with more options in the commented out sections. Make sure to replace the `username` in the URLs so the links point to your profiles. 
 
