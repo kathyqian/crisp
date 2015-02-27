@@ -39,6 +39,7 @@ footer {
 article {
 	border-bottom: 0.1em #eee solid;
 	padding-bottom: 1.7em;
+	max-width: 56em;
 }
 p, hr, h4, h5, h6 {
 	margin-top: 0.9em;
