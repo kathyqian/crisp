@@ -1,23 +1,23 @@
 # Crisp 
 
-A minimalist, responsive, and open-source theme for [Ghost](http://ghost.org) by [Kathy Qian](http://kathyqian.com). You can [view it live here](http://kathyqian.com).
+A minimalist, responsive, and open-source theme for [Ghost](http://ghost.org) by [Kathy Qian](http://kathyqian.com).
 
-![Index](https://raw.github.com/kathyqian/crisp-ghost-theme/master/index.png)   
+![Index](https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/index.png)   
 
 ### Required Steps for Installation
 
 1. Download the files
-2. Manually add/remove all links to static pages by copying (or deleting) the code in **crisp/partials/navigation.hbs**    
-3. Replace the `example` disqus_shortname with your shortname on *line 13* of **crisp/post.hbs**, or delete the #comments div to remove comments altogether
-4. Configure the follow buttons in **crisp/partials/follow.hbs** (see section below)
-5. Add the "crisp" folder to the **content/themes** directory of your Ghost installation
+2. Manually add/remove all links to static pages by copying (or deleting) the code in **partials/navigation.hbs**    
+3. Replace the `example` disqus_shortname with your shortname on *line 4* of **partials/comments.hbs**, or delete the #comments div to remove comments altogether
+4. Configure the follow buttons in **partials/follow.hbs** (see section below)
+5. Add the folder to the **content/themes** directory of your Ghost installation
 6. Select the theme in the settings page of your Ghost admin panel
 
 ### Suggested Customizations
 
-* Change the link color on *line 86* in **crisp/assets/styles/crisp.css**
-* Add code for Google Analytics in **crisp/default.hbs** after `{{ghost_foot}}`
-* Remove irrelevant social sharing services in **crisp/partials/share.hbs**
+* Change the link color on *line 87* in **assets/styles/crisp.css**
+* Add code for Google Analytics in **default.hbs** after `{{ghost_foot}}`
+* Remove irrelevant social sharing services in **partials/share.hbs**
 * Change your blog logo to change the favicon and the picture in the sidebar (the blog cover is not used)
 
 ### Editing Follow Buttons
@@ -28,43 +28,16 @@ I have placed some common buttons in **follow.hbs**, with more options in the co
 
 ### Features, Changelog, and Technical Notes
 
-Below is a summary of updates since the initial release. If you need more detail, I suggest reading the [full commit history](https://github.com/kathyqian/crisp-ghost-theme/commits/master/). For an idea of the roadmap, please refer to the [current open issues](https://github.com/kathyqian/crisp-ghost-theme/issues?state=open).
+Below is a summary of updates since the initial release. If you need more detail, I suggest reading the [full commit history](https://github.com/kathyqian/crisp-ghost-theme/commits/master/). For an idea of the roadmap and open issues, please refer to the [current open issues](https://github.com/kathyqian/crisp-ghost-theme/issues?state=open).
 
-This theme has been updated for Ghost 0.4.2 and is compatible with all modern versions of Chrome, Firefox, Safari, and IE9+.
+This theme has been updated for Ghost 0.5.8 and is compatible with all modern versions of Chrome, Firefox, Safari, and IE9+.
 
-**Version 0.4.1 &mdash; April 26, 2014**
+**Version 0.5.0 &mdash; March 5, 2015**
 
-* Adds open graph compatibility
-* Improvements to social sharing buttons
-* Minor styling tweaks to follow buttons
+* Restructured file repository for easier updates (BREAKING CHANGE) 
+* Added code highlighting with highlight.js
 
-**Version 0.4.0 &mdash; April 25, 2014**
-
-* Added follow buttons
-* Added social sharing buttons 
-* Now displays star for featured posts
-* Minor tweaks to tag styling
-* Shortened dates slightly
-* Changes in file structure
-
-**Version 0.3.0 &mdash; April 24, 2014**
-
-* Added support for tags and tag pages
-* Minor tweaks to be fully compliant with Ghost 0.4.2
-* Squished bug with Disqus integration
-
-**Version 0.2.1 &mdash; April 4, 2014**
-
-* Squished bug preventing bold text from rendering on older browsers
-
-**Version 0.2.0 &mdash; March 17, 2014**
-
-* Added post dates to the index page
-* Squished bugs to improve compatibility with  older browsers
-
-**Version 0.1.0**
-
-* Initial release
+Please see the [wiki](https://github.com/kathyqian/crisp-ghost-theme/wiki/) for details regarding previous releases.
 
 ### Credits
 
@@ -78,6 +51,5 @@ This theme is licensed under the [Creative Commons Attribution-NonCommercial-Sha
 
 ### More Screenshots
 
-![Post](https://raw.github.com/kathyqian/crisp-ghost-theme/master/post.png)
-![Post w/Image](https://raw.github.com/kathyqian/crisp-ghost-theme/master/post-2.png)
-![Post w/Long Text](https://raw.github.com/kathyqian/crisp-ghost-theme/master/post-3.png)
+![Post](https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/post.png)
+![Comments](https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/post-2.png)
