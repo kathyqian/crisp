@@ -6,12 +6,11 @@ A minimalist, responsive, and open-source theme for [Ghost](http://ghost.org) by
 
 ### Required Steps for Installation
 
-1. Download the files
-2. Manually add/remove all links to static pages by copying (or deleting) the code in **partials/navigation.hbs**    
-3. Replace the `example` disqus_shortname with your shortname on *line 4* of **partials/comments.hbs**, or delete the #comments div to remove comments altogether
-4. Configure the follow buttons in **partials/follow.hbs** (see section below)
-5. Add the folder to the **content/themes** directory of your Ghost installation
-6. Select the theme in the settings page of your Ghost admin panel
+1. Download the files   
+2. Replace the `example` disqus_shortname with your shortname on *line 4* of **partials/comments.hbs**, or delete the #comments div to remove comments altogether
+3. Configure the follow buttons in **partials/follow.hbs** (see section below)
+4. Add the folder to the **content/themes** directory of your Ghost installation
+5. Select the theme in the settings page of your Ghost admin panel
 
 ### Suggested Customizations
 

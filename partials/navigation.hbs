@@ -1,1 +1,3 @@
-<h6><a href="{{@blog.url}}/about">About</a></h6>
+{{#foreach navigation}}
+  <h6><a href="{{url absolute="true"}}">{{label}}</a></h6>
+{{/foreach}}
