@@ -25,6 +25,16 @@ Crisp uses Font Awesome for icons. See the Font Awesome documentation for the [f
 
 I have placed some common buttons in **follow.hbs**, with more options in the commented out sections. Make sure to replace the `username` in the URLs so the links point to your profiles. 
 
+### Syntax highlighting
+
+[Prism](http://prismjs.com/) is used by Crisp for syntax highlighting. To highlight a certain code block, start it with three backticks and then `language-*`, where `*` is the language the block is written in. For example, to syntax highlight a block of Python code, start it with:
+
+```
+```language-python
+```
+
+The languages supported out of the box in Crisp are HTML (`language-markup`), CSS, JavaScript, Handlebars, C, C# (`language-csharp`), C++ (`language-cpp`), C-likes (`language-clike`), Python and Ruby. To add more languages, go to [the Prism site](http://prismjs.com/), click "download", choose the languages you want (leave the theme as default), and download the JavaScript and CSS files. Put the resulting `prism.js` in `crisp/assets/js`, and `prism.css` in `crisp/assets/css`.
+
 ### Features, Changelog, and Technical Notes
 
 Below is a summary of updates since the initial release. If you need more detail, I suggest reading the [full commit history](https://github.com/kathyqian/crisp-ghost-theme/commits/master/). For an idea of the roadmap and open issues, please refer to the [current open issues](https://github.com/kathyqian/crisp-ghost-theme/issues?state=open).
