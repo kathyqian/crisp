@@ -8,7 +8,8 @@ html, body {
 	line-height: 1.65em;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
-	color:#444;
+    background: #fff;
+	color: #444;
 }
 html {
 	height: 100%;
