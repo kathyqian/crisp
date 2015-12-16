@@ -1,14 +1,14 @@
 * {
 	padding: 0;
 	margin: 0;
-} 
+}
 /* Basic Typography */
 html, body {
 	font-size: 1em;
 	line-height: 1.65em;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
-    background: #fff;
+	background: #fff;
 	color: #444;
 }
 html {
@@ -16,7 +16,7 @@ html {
 }
 body {
 	padding: 2em 2.5em 1em 20em;
-}                  
+}
 /* Blocks */
 header {
 	border-right: 1px #eee solid;
@@ -110,24 +110,53 @@ ul, ol {
 	margin-left: 3em; 
 }
 code {
-	font-size:1.4em;
-	background: #eee;
+	margin: 0.1em;
+	padding: 0.2em;
+	border-radius: 0.25em;
+	font-family: "Source Code Pro";
+	font-weight: 300;
+	font-size: 0.9em;
+	/* Prism's background color for consistency. */
+	background: #F5F2F0;
 }
 pre {
-	font-size: 0.8em;
-	line-height: 2em;
-	background: #eee;
 	padding: 1em;
+	line-height: 2em;
+	background: #F5F2F0;
+	border-radius: 0.5em;
+	font-family: "Source Code Pro";
+	font-weight: 400;
+	font-size: 0.8em;
 	word-break: break-all;
 	word-wrap: break-word;
 	white-space: pre;
 	white-space: -moz-pre-wrap;
 	white-space: pre-wrap;
-	white-space: pre\9; 
+	white-space: pre\9;
+}
+pre > code {
+	padding: 0; /* Without this, the first row gets offset by 0.2em. */
+	background: none;
+	font-weight: 400;
 }
 input {
 	font-size:1em;
 	padding: 0.3em;
+}
+/* Prism.js style tweaks */
+code[class*="language-"],
+pre[class*="language-"] {
+	font-family: "Source Code Pro";
+	white-space: -moz-pre-wrap;
+	white-space: pre-wrap;
+	white-space: pre\9;
+}
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	background: none;
 }
 /* Sidebar */
 header h1 {
@@ -171,7 +200,7 @@ header h6 {
 }
 /* Posts */
 article span.post-stamp {
-	color:#888;     
+	color:#888;
 }
 h1.post-title {
 	margin-top:0.35em;
