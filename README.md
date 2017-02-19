@@ -2,7 +2,7 @@
 
 A minimalist, responsive, and open-source theme for [Ghost](http://ghost.org) by [Kathy Qian](http://kathyqian.com). Last tested with Ghost v0.11.4.
 
-![Index](https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/index.png)   
+![Index](https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/list.png)   
 
 ### Required Steps for Installation
 
@@ -52,4 +52,4 @@ This theme is licensed under the [Creative Commons Attribution-NonCommercial-Sha
 
 ### More Screenshots
 
-![Post](https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/post.png)
+![Post](https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/single.png)
