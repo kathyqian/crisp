@@ -48,7 +48,7 @@ Social sharing buttons are a modified version of the [Ridiculously Responsive So
 
 ### License
 
-This theme is licensed under the [MIT License](https://github.com/kathyqian/crisp/blob/master/license.txt). I would really appreciate it if you could keep at least one of the links intact though!
+This theme is licensed under the [MIT License](https://github.com/kathyqian/crisp/blob/master/license.txt). I would really appreciate it if you could keep at least one of the footer links intact though!
 
 ### More Screenshots
 
