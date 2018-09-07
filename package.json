@@ -1,8 +1,39 @@
 {
-    "name"        : "Crisp",
-    "version"     : "0.5.1",
+    "name"        : "crisp",
     "description" : "A minimalist, responsive, and open-source theme for Ghost",
-    "author"      : "Kathy Qian",
-    "homepage"    : "https://github.com/kathyqian/crisp-ghost-theme",
-		"license"     : "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
+    "version"     : "1.0.0",
+    "engines": {
+        "ghost": ">=2.0.0"
+    },
+    "license": "MIT",
+    "screenshots": {
+        "desktop": "assets/screenshot-desktop.png",
+        "mobile": "assets/screenshot-mobile.png"
+    },
+    "author": {
+        "name": "Kathy Qian",
+        "email": "hello@kathyqian.com",
+        "url": "https://kathyqian.com"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimal",
+            "Personal Blogs"
+        ]
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+        "ghost-theme"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kathyqian/crisp.git"
+    },
+    "bugs": "https://github.com/kathyqian/crisp/issues",
+    "contributors": "https://github.com/kathyqian/crisp/graphs/contributors",
+    "config": {
+        "posts_per_page": 10
+    }
 }
