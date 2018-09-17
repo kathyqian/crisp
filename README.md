@@ -2,8 +2,6 @@
 
 A minimalist, responsive, and open-source theme for [Ghost](http://ghost.org) by [Kathy Qian](http://kathyqian.com). Last tested with Ghost v0.11.4.
 
-![Index](https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/list.png)   
-
 ### Required Steps for Installation
 
 1. Download the files   
@@ -49,7 +47,3 @@ Social sharing buttons are a modified version of the [Ridiculously Responsive So
 ### License
 
 This theme is licensed under the [MIT License](https://github.com/kathyqian/crisp/blob/master/license.txt). I would really appreciate it if you could keep at least one of the footer links intact though!
-
-### More Screenshots
-
-![Post](https://raw.github.com/kathyqian/crisp-ghost-theme/master/screenshots/single.png)
