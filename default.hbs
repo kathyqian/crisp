@@ -24,7 +24,7 @@
 	    {{ghost_head}}
 	</head>
 	<body class="{{body_class}}">
-		<header id="header">
+		<header id="header" {{#if @blog.cover_image}}style="background-image: url('{{@blog.cover_image}}')"{{/if}}>
 			{{#if @blog.logo}}<a id="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
 			<h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
 			<p>{{@blog.description}}</p>
