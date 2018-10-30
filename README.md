@@ -16,7 +16,7 @@ A minimalist, responsive, and open-source theme for [Ghost](http://ghost.org) by
 * Add code for Google Analytics in **default.hbs** after `{{ghost_foot}}`
 * Replace the Disqus universal embed code in **partials/comments.hbs**, or delete the #comments div to remove comments altogether
 * Remove irrelevant social sharing services in **partials/share.hbs**, or change the colors of social sharing services in **assets/styles/rrssb.css**
-* Change your blog logo to change the favicon and the picture in the sidebar
+* Change your blog logo to change the favicon and cover photo to change the sidebar background
 
 ### Editing Follow Buttons
 
