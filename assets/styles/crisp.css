@@ -26,6 +26,8 @@ header {
 	left: 0;
 	height:100%;
 	width:13.5em;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 #content {
 	display: block;
