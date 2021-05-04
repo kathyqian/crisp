@@ -3,7 +3,7 @@
     "description" : "A minimalist, responsive, and open-source theme for Ghost",
     "version"     : "1.0.0",
     "engines": {
-        "ghost-api": "v3"
+        "ghost-api": "v4"
     },
     "license": "MIT",
     "screenshots": {
