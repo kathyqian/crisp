@@ -87,7 +87,7 @@ img, iframe {
 a {
 	font-weight:700;
 	text-decoration:none;
-	color: #5cc265; /* Change Link Color */
+	color: var(--ghost-accent-color); /* Change Link Color */
 }
 a:hover {
 	text-decoration:underline;
