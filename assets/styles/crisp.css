@@ -234,6 +234,12 @@ h3.post-title, .post-meta {
 	padding-bottom: 0.2em;
 	border-bottom: 1px solid #eee;
 }
+.post .article-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
 /* Footer */
 .pagination {
 	margin-bottom:1em;
