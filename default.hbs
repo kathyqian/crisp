@@ -26,7 +26,11 @@
 	<body class="{{body_class}}">
 		<header id="header" {{#if @site.cover_image}}style="background-image: url('{{@site.cover_image}}')"{{/if}}>
 			{{#if @site.logo}}<a id="logo" href="{{@site.url}}"><img src="{{@site.logo}}" alt="{{@site.title}}" /></a>{{/if}}
-			<h1><a href="{{@site.url}}">{{@site.title}}</a></h1>
+			{{#is "home"}}
+			<h1 class="site-title"><a href="{{@site.url}}">{{@site.title}}</a></h1>
+			{{else}}
+			<span class="site-title"><a href="{{@site.url}}">{{@site.title}}</a></span>
+			{{/is}}
 			<p>{{@site.description}}</p>
 			{{> follow}}
 			{{navigation}}
