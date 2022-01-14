@@ -184,15 +184,23 @@ h1.post-title {
 	margin-top:0.35em;
 	margin-bottom: 0.6em;
 }
-h3.post-title {
-	margin-top:0.4em;
-	padding-bottom:0.9em;
-	border-bottom: 1px solid #eee;
+h3.post-title, .post-meta {
 	font-size: 1.2em;
 	color: #444;
+	display:inline;
 }
-.post-title .feature-star {
+.post-listing {
+	margin-top:0.4em;
+	margin-bottom:0.8em;
+	padding-bottom:0.9em;
+	border-bottom: 1px solid #eee;
+}
+.post-meta .feature-star {
 	font-size: 0.9em;
+}
+.post-meta {
+ 	font-family: "Bree Serif", serif;
+	font-weight: 400 !important;
 }
 .separator, .taglist, .feature-star {
 	color: #ccc;
@@ -263,6 +271,12 @@ footer a:hover {
 	}
 	footer {
 		padding: 0 2.5em 2em 2.5em;
+	}
+	.post-meta {
+		display:block;
+	}
+	.m-hide {
+		display:none;
 	}
 }
 /* Tiny Screens */
