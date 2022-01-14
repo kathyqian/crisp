@@ -221,6 +221,9 @@ h3.post-title, .post-meta {
 	-moz-border-radius: 0.25em;
 	-webkit-border-radius: 0.25em;
 }
+.article-excerpt {
+	font-size: 1.5em;
+}
 #social-bar {
 	margin-top:1.5em;
 	background-color:#eee;
