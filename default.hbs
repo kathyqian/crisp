@@ -42,6 +42,13 @@
 			<section id="footer-message">&copy; {{date format='YYYY'}} {{@site.title}}. {{t "All rights reserved" }}. {{t "Powered" }} {{t "by" }} <a href="http://ghost.org" target="_blank">Ghost</a>. <a href="https://github.com/kathyqian/crisp" target="_blank">Crisp</a> {{t "theme" }} {{t "by" }} <a href="http://kathyqian.com" target="_blank">Kathy Qian</a>.</section>
 		</footer>
 	{{ghost_foot}}
+	<script src="{{asset '/js/jquery.fitvids.js'}}"></script>
+	<script>
+	  $(document).ready(function(){
+	    // Target your .container, .wrapper, .post, etc.
+	    $(".kg-embed-card").fitVids();
+	  });
+	</script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>
 	</body>
