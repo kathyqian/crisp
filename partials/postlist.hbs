@@ -1,5 +1,8 @@
 {{#foreach posts}}
 <section id="{{comment_id}}" class="{{post_class}}">
-	<h3 class="post-title"><a href="{{url}}">{{title}}</a><span class="separator"> &middot; </span>{{date published_at format='MMMM D, YYYY'}}<span class="taglist">{{tags separator=" " prefix=" &middot; "}}</span>{{#if featured}}<span class="separator"> &middot; </span><i class="fa fa-star-o feature-star"></i>{{/if}}</h3>
+	<div class="post-listing">
+	<h3 class="post-title"><a href="{{url}}">{{title}}</a></h3>
+	<span class="post-meta"> <span class="separator m-hide"> &middot; </span>{{date published_at format='MMMM D, YYYY'}}<span class="taglist">{{tags separator=" " prefix=" &middot; "}}</span>{{#if featured}}<span class="separator"> &middot; </span><i class="fa fa-star-o feature-star"></i>{{/if}}</span>
+</div>
 </section>
 {{/foreach}}
